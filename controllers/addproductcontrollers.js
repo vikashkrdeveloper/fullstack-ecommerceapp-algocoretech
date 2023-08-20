@@ -3,7 +3,7 @@ const addproductcontrollers = async (req, res) => {
     try {
         const { producttitle, discription,category, subcategory, price, country } = req.body;
         const uploadedImage = req.file;
-        console.log(uploadedImage)
+      
         
         if (producttitle && discription  && category && subcategory && price && country) {
 
